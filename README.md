@@ -8,7 +8,7 @@ Abaixo temos um fluxograma pra demonstrar as etapas de execução da pipeline:
 <div align="center"> <h4>Fluxograma<h4> </div>
 
 <div align="center"> 
-<img src="fluxograma.png" alt="Fluxograma">
+<img src="Fluxograma.png" alt="Fluxograma">
 </div>
 
  **Tarefas**:
