@@ -22,14 +22,14 @@ Abaixo temos um fluxograma pra demonstrar as etapas de execução da pipeline:
 
 1. **Criar uma classe com métodos que:**:
     
-* Leia os arquivos. `.lerarquivos`
-* Transforme para DataFrame.`.transformardf`
+* Lê os arquivos. `.lerarquivos`
+* Transforma para DataFrame.`.transformardf`
 * Concatena os Dataframes.`.concatenardf`
-* Transformar os dados:
-1. Agrupar por categoria. `.agruparcat`
-2. Somar vendas totais de cada produto. `.vendastotais`
-3. Filtrar vendas acima de R$ 10.000,00 `.vendasup10mil`
-* Converter pra CSV. `.convertercsv`
-* Converter pra Parquet. `.converterparquet`
-* Salvar em CSV. `.salvarcsv`
-* Salvar em Parquet. `.salvarparquet`
+* Transforma os dados:
+1. Agrupa por categoria. `.agruparcat`
+2. Soma vendas totais de cada produto. `.vendastotais`
+3. Filtra vendas acima de R$ 10.000,00 `.vendasup10mil`
+* Converte pra CSV. `.convertercsv`
+* Converte pra Parquet. `.converterparquet`
+* Salva em CSV. `.salvarcsv`
+* Salva em Parquet. `.salvarparquet`
