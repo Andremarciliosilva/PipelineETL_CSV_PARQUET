@@ -20,7 +20,7 @@ Abaixo temos um fluxograma pra demonstrar as etapas de execução da pipeline:
 
 **Divisão das terafas do projeto**
 
-1. **Criar uma classe com métodos que:**:
+1. **Criar uma classe com métodos que:**
     
 * Lê os arquivos. `.lerarquivos`
 * Transforma para DataFrame.`.transformardf`
