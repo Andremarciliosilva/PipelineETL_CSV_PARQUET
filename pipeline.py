@@ -9,11 +9,11 @@ df_concat = tratamento_json.concatenardfs ('coleta_dia01.json', 'coleta_dia02.js
 
 # Métodos da classe Transformarjson pra formatar os dados, agrupar por categoria, calcular vendas totais e filtrar vendas acima de R$ 10.000,00.
 
-transformacao_json = cls.Transformarjson()
+transformacao_json = cls.Transformar()
 transformacao_json.formatardata(df_concat)
 transformacao_json.agruparcat(df_concat)
 transformacao_json.vendastotais(df_concat)
 transformacao_json.vendasup10mil(df_concat)
 
 decisao_saida = cls.Decisaosaida()
-decisao_saida.saidacsv('dados_concatenados.csv')
+decisao_saida.salvarparquet('dados_concatenados.csv')
