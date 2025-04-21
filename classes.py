@@ -26,7 +26,7 @@ class Tratamentojson:
     
 # Classe com métodos pra formatar as datas, vendas, agrupar por categoria, calcular vendas totais e filtrar vendas superiores a R$10.000,00
 
-class Transformarjson:
+class Transformar:
 
     def formatardata(self, df_concat):
         df_concat = pd.read_csv('dados_concatenados.csv')
@@ -59,6 +59,6 @@ class Transformarjson:
     
 class Decisaosaida:
 
-    def saidacsv(self,arq_csv):
+    def salvarparquet(self,arq_csv):
         df = pd.read_csv(arq_csv)
         df.to_parquet('Dados_parquet.parquet')    
