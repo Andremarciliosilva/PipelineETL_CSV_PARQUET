@@ -1,7 +1,7 @@
 #### Pipeline ETL que lê os dados, transforma e converte de CSV pra PARQUET
 
 Objetivo: Desenvolver uma pipeline ETL que leia arquivos .JSON, transforma para Dataframe, concatena os Dataframes, 
-transforma os dados pra CSV ou PARQUET.
+transforma os dados PARQUET.
 
 Abaixo temos um fluxograma pra demonstrar as etapas de execução da pipeline:
 
