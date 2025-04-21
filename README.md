@@ -25,11 +25,13 @@ Abaixo temos um fluxograma pra demonstrar as etapas de execução da pipeline:
 * Lê os arquivos. `.lerarquivos`
 * Transforma para DataFrame.`.transformardf`
 * Concatena os Dataframes.`.concatenardf`
+
 * Transforma os dados:
 1. Agrupa por categoria. `.agruparcat`
 2. Soma vendas totais de cada produto. `.vendastotais`
 3. Filtra vendas acima de R$ 10.000,00 `.vendasup10mil`
-* Converte pra CSV. `.convertercsv`
-* Converte pra Parquet. `.converterparquet`
-* Salva em CSV. `.salvarcsv`
+
+
 * Salva em Parquet. `.salvarparquet`
+
+Para visualizar o resultado das tasks acima, verificar o arquivo exibicao_resultado.ipynb.
